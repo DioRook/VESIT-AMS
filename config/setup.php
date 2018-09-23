@@ -12,11 +12,10 @@ include ('config/connection.php');
 
 
 #functions..
-/*
-else{
-	$pageid='home';//set page =1
-}*/
+
 #page setup
+$page['title']="HOME";
+$title="VESIT-AMS";
 
 
 

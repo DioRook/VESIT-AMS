@@ -1,3 +1,3 @@
 <?php
-include("config/connection.php");
+include("config/setup.php");
 ?>

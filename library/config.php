@@ -10,7 +10,7 @@ session_start();
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'db_myasset';
+$dbName = 'vesit-ams';
 
 // setting up the web root and server root for
 // this shopping cart application

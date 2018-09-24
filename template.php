@@ -44,7 +44,17 @@ a {text-decoration:none;}
 </div>
 <div class="span-19 ">
 <?php
-require_once $content;	 
+$view = $_SESSION['asset_user_type'];
+$subv=$_GET['v'];
+
+$content = $view.'/'.$subv.".php";
+//print_r($content);
+if($subv==""){
+	$content="main.php";
+}
+require_once $content;
+
+	 
 ?>
 </div>
 
